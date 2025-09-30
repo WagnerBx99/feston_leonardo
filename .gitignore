@@ -1,0 +1,25 @@
+# Logs do CodeIgniter
+/application/logs/*
+!application/logs/.gitignore
+
+# Cache do CodeIgniter
+/application/cache/*
+!application/cache/.gitignore
+
+# Arquivos de ambiente
+.env
+
+# Arquivos do sistema do IDE / OS
+.DS_Store
+Thumbs.db
+
+# Composer vendor
+/vendor/
+
+# Node modules (se estiver usando frontend build)
+node_modules/
+
+# Arquivos temporários de backup
+*.bak
+*.swp
+*.tmp
